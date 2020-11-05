@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS USER;
+ 
+CREATE TABLE USER(
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  password VARCHAR(250) NOT NULL,
+  username VARCHAR(250) NOT NULL);
+ 
+INSERT INTO USER (password, username) VALUES ('admin', 'admin');
